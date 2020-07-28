@@ -7,7 +7,7 @@ $(function(){
     var gato = this.hash;
     
     $('html, body').animate({
-        
+
     scrollTop: $(gato).offset().top
     }, 800, function(){
     window.location.hash = gato;
@@ -15,3 +15,7 @@ $(function(){
     } // Fin del if
     });
     });
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })

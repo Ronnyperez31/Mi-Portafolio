@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.light{
+    font-weight: 300;
+}
+.medium{
+    font-weight: 500;
+}
+.small1{
+    font-size: 13px;
+}
+.small2{
+    font-size: 16px;
+}
+.small3{
+    font-size: 20px;
+}
+.color1{
+    color: #212529;
+}
+.color2{
+    color: #707070;
+}
+.titulo{
+    font-size: 25px;
+    font-weight: 500;
+}

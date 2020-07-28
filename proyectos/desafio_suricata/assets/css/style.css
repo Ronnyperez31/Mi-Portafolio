@@ -1,0 +1,60 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-suricata{
+    background-color: #E83E8C;
+}
+.bg-pago{
+    background-color: #17A2B8;
+}
+.py-10{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.px-15{
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.escala{
+    width: 132px;
+}
+.escala2{
+    width: 53px;
+}
+.titulo1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #707070;
+    opacity: 1;
+}
+.texto-cards{
+    font-size: 16px;
+    font-weight: 400;
+    color: #373A3C;
+    opacity: 1;
+}
+.texto-cards2{
+    font-size: 11px;
+    font-weight: 400;
+    color: #373A3C;
+    opacity: 1;
+}
+.colorlink{
+    color: #1C7CD5;
+}
+.titulo2{
+    font-size: 17px;
+    font-weight: 700;
+    color: #373A3C;
+    opacity: 1;
+}
+.titulo3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+}
+.iconos{
+    font-size: 60px;
+    color: #ffffff;
+}

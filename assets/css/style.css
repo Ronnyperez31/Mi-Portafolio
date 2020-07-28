@@ -7,3 +7,43 @@ body{
     line-height: 3em;
     letter-spacing: 1px;
 }
+header{
+    background-image: url("../img/cleito_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 700px;
+}
+.oswaldlight{
+    font-size: 55px;
+    font-weight: 200;
+}
+.oswaldbold1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.oswaldbold2{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+.lobster{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.lobster2{
+    font-size: 21px;
+    font-family: 'Lobster', cursive;
+}
+.p1{
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    line-height: 2em;
+}
+.sub1{
+    font-size: 27px;
+    line-height: 2em;
+    color: #343638;
+    letter-spacing: 3px;
+}

@@ -21,7 +21,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top py-0">
         <div class="container">
             <a class="navbar-brand" href="#"><span class="lobster">Ronny</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -31,16 +31,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-light" href="#">Sobre mi</a>
+                        <a class="nav-link text-light" href="#descripcion">Sobre mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Experiencia</a>
+                        <a class="nav-link text-light" href="#experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Trabajos</a>
+                        <a class="nav-link text-light" href="#trabajos">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contacto</a>
+                        <a class="nav-link text-light" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -59,10 +59,10 @@
     <!-- Fin Header -->
 
     <!-- Descripción -->
-    <section class="container py-5">
+    <section id="descripcion" class="container py-5 d-none d-sm-block">
         <div class="row text-center">
             <div class="col-md-12 pb-5">
-                <h3 class="sub1">Me considero una persona estable, tranquila y confiable, comprometido con su trabajo
+                <h3 class="sub1 pt-3">Me considero una persona estable, tranquila y confiable, comprometido con su trabajo
                     y perseverante. Me gusta compartir con nuevas personas y aprender de ellas.
                 </h3>
             </div>
@@ -93,8 +93,8 @@
     <!-- Fin descripción -->
 
     <!-- Experiencia -->
-    <section class="container py-5 text-center">
-        <h2 class="oswaldbold1 text-dark">MI EXPERIENCIA</h2>
+    <section id="experiencia" class="container py-5 text-center">
+        <h2 class="oswaldbold1 text-dark pt-3">MI EXPERIENCIA</h2>
         <hr style="border: 1px solid black; width: 10%;">
         <div class="row mt-5">
             <div class="col-md-6">
@@ -112,69 +112,75 @@
     <!-- Fin Experiencia -->
 
     <!-- Mis Trabajos -->
-    <section class="container-fluid py-5 bg-info text-left">
+    <section id="trabajos" class="container-fluid py-5 bg-info text-left">
         <div class="container">
-            <h2 class="text-center text-light oswaldbold1">MIS ÚLTIMOS TRABAJOS</h2>
+            <h2 class="text-center text-light oswaldbold1 pt-3">MIS ÚLTIMOS TRABAJOS</h2>
             <hr style="border: 1px solid white; width: 10%;">
             <div class="row">
-                <div class="col-md-4 mt-5">
+                <div class="col-md-4 col-sm-12 mt-5 d-flex justify-content-center">
                     <div class="card" style="width: 22rem;">
-                        <img src="assets/img/trabajo_01.jpg" class="card-img-top" alt="...">
+                        <a href="proyectos/meetcoffee/evento01.html" target="_blank"><img src="assets/img/trabajo_1.jpg" class="card-img-top" alt="Meet&Coffe"></a>
                         <div class="card-body">
                             <h5 class="card-title sub1">Meet&Coffe</h5>
-                            <p class="card-text p1"><span class="text-info lobster2">Meet & Coffe</span>, página web desarrollada para el desafio número 1 del
+                            <p class="card-text p1"><span class="text-info lobster2">Meet & Coffe</span>, página web
+                                desarrollada para el desafio número 1 del
                                 módulo "Fundamentos del Desarrollo Web".</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-5">
+                <div class="col-md-4 col-sm-12 mt-5 d-flex justify-content-center">
                     <div class="card" style="width: 22rem;">
-                        <img src="assets/img/trabajo_01.jpg" class="card-img-top" alt="...">
+                        <a href="proyectos/Iguana/index.html" target="_blank"><img src="assets/img/trabajo_2.jpg" class="card-img-top" alt="Iguana Page"></a>
                         <div class="card-body">
                             <h5 class="card-title sub1">Iguana Page</h5>
-                            <p class="card-text p1"><span class="text-info lobster2">Iguana Page</span>, página web desarrollada para el desafio número 1 del
+                            <p class="card-text p1"><span class="text-info lobster2">Iguana Page</span>, página web
+                                desarrollada para el desafio número 1 del
                                 módulo "Fundamentos del Desarrollo Web".</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-5">
+                <div class="col-md-4 col-sm-12 mt-5 d-flex justify-content-center">
                     <div class="card" style="width: 22rem;">
-                        <img src="assets/img/trabajo_01.jpg" class="card-img-top" alt="...">
+                        <a href="proyectos/desafio_suricata/index.html" target="_blank"><img src="assets/img/trabajo_3.jpg" class="card-img-top" alt="Suricata"></a>
                         <div class="card-body">
                             <h5 class="card-title sub1">Suricata</h5>
-                            <p class="card-text p1"><span class="text-info lobster2">Suricata</span>, página web desarrollada para el desafio número 1 del
+                            <p class="card-text p1"><span class="text-info lobster2">Suricata</span>, página web
+                                desarrollada para el desafio número 1 del
                                 módulo "Fundamentos del Desarrollo Web".</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 mt-5">
+                <div class="col-md-4 col-sm-12 mt-5 d-flex justify-content-center">
                     <div class="card" style="width: 22rem;">
-                        <img src="assets/img/trabajo_01.jpg" class="card-img-top" alt="...">
+                        <a href="proyectos/desafio_cuppon/index.html" target="_blank"><img src="assets/img/trabajo_4.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h5 class="card-title sub1">Cuppon</h5>
-                            <p class="card-text p1"><span class="text-info lobster2">Cuppon</span>, página web desarrollada para el desafio número 1 del
+                            <p class="card-text p1"><span class="text-info lobster2">Cuppon</span>, página web
+                                desarrollada para el desafio número 1 del
                                 módulo "Fundamentos del Desarrollo Web".</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-5">
+                <div class="col-md-4 col-sm-12 mt-5 d-flex justify-content-center">
                     <div class="card" style="width: 22rem;">
-                        <img src="assets/img/trabajo_01.jpg" class="card-img-top" alt="...">
+                        <a href="proyectos/ricomida/index.html" target="_blank"><img src="assets/img/trabajo_5.jpg" class="card-img-top" alt="Ricomida"></a>
                         <div class="card-body">
                             <h5 class="card-title sub1">Ricomida</h5>
-                            <p class="card-text p1"><span class="text-info lobster2">Ricomida</span>, página web desarrollada para el desafio número 1 del
+                            <p class="card-text p1"><span class="text-info lobster2">Ricomida</span>, página web
+                                desarrollada para el desafio número 1 del
                                 módulo "Fundamentos del Desarrollo Web".</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-5">
+                <div class="col-md-4 col-sm-12 mt-5 d-flex justify-content-center">
                     <div class="card" style="width: 22rem;">
-                        <img src="assets/img/trabajo_01.jpg" class="card-img-top" alt="...">
+                        <a href="index.html"><img src="assets/img/trabajo_6.jpg" class="card-img-top" alt="Mi Portafolio"></a>
                         <div class="card-body">
                             <h5 class="card-title sub1">Mi Portafolio</h5>
-                            <p class="card-text p1"><span class="text-info lobster2">Mi Portafolio</span>, página web desarrollada para el desafio número 1 del
+                            <p class="card-text p1"><span class="text-info lobster2">Mi Portafolio</span>, página web
+                                desarrollada para el desafio número 1 del
                                 módulo "Fundamentos del Desarrollo Web".</p>
                         </div>
                     </div>
@@ -185,10 +191,32 @@
     <!-- Fin mis trabajos -->
 
     <!-- Contacto -->
-    <section class="container py-5 text-center">
-        <h2 class="oswaldbold1 text-dark">CONTACTO</h2>
+    <section id="contacto" class="container py-5 text-center">
+        <h2 class="oswaldbold1 text-dark pt-3">CONTACTO</h2>
         <hr style="border: 1px solid black; width: 10%;">
         <!-- typeform -->
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/dV7ieRbw"
+            style="width: 100%; height: 500px;"></div>
+        <script>
+            (function () {
+                var qs, js, q, s, d = document,
+                    gi = d.getElementById,
+                    ce = d.createElement,
+                    gt = d.getElementsByTagName,
+                    id = "typef_orm",
+                    b = "https://embed.typeform.com/";
+                if (!gi.call(d, id)) {
+                    js = ce.call(d, "script");
+                    js.id = id;
+                    js.src = b + "embed.js";
+                    q = gt.call(d, "script")[0];
+                    q.parentNode.insertBefore(js, q)
+                }
+            })()
+        </script>
+        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+            href="https://admin.typeform.com/signup?utm_campaign=dV7ieRbw&utm_source=typeform.com-01EEB3PGJ86DH06BG4VYK5WHSD-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
+            style="color: #999" target="_blank">Typeform</a> </div>
         <!-- fin Typeform -->
     </section>
     <!-- Fin Contacto -->
@@ -201,11 +229,11 @@
                     <h3 class="text-right text-white">Ronny</h3>
                 </div>
                 <div class="col-md-8">
-                    <a href="https://www.facebook.com/ronnyperezmor" target="_blank" class="ml-4 text-white"><i
+                    <a  href="https://www.facebook.com/ronnyperezmor" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank" class="ml-4 text-white"><i
                             class="fab fa-facebook-square fa-2x"></i></a>
-                    <a href="https://www.instagram.com/briansperezxp/?hl=es-la" target="_blank"
+                    <a href="https://www.instagram.com/briansperezxp/?hl=es-la" data-toggle="tooltip" data-placement="top" title="Instagram" target="_blank"
                         class="ml-4 text-white"><i class="fab fa-instagram-square fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/in/ronny-p%C3%A9rez-b9243817a/" target="_blank"
+                    <a href="https://www.linkedin.com/in/ronny-p%C3%A9rez-b9243817a/" data-toggle="tooltip" data-placement="top" title="Linkedin" target="_blank"
                         class="ml-4 text-white"><i class="fab fa-linkedin fa-2x"></i></a>
                 </div>
             </div>
@@ -222,7 +250,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
-    <script src="assets/js/javascript.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
